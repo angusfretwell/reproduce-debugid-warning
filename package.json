@@ -1,0 +1,37 @@
+{
+  "name": "reproduce-debugid-warning",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react/",
+      "<rootDir>/node_modules/react-dom/",
+      "<rootDir>/node_modules/react-addons-test-utils/"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angusfretwell/reproduce-debugid-warning.git"
+  },
+  "author": "Angus Fretwell <angus@inoutput.io> (http://angusfretwell.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angusfretwell/reproduce-debugid-warning/issues"
+  },
+  "homepage": "https://github.com/angusfretwell/reproduce-debugid-warning#readme",
+  "dependencies": {
+    "react": "15.2.1",
+    "react-dom": "15.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-jest": "^13.2.2",
+    "babel-preset-airbnb": "^2.0.0",
+    "jest-cli": "^13.1.0",
+    "react-addons-test-utils": "15.2.1"
+  }
+}
